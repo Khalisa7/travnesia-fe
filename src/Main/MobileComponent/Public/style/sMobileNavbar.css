@@ -1,0 +1,8 @@
+#sidebar-home{
+    width :100%;
+    position : fixed;
+    top : 0;
+    background-color :rgb(204, 92, 92);
+    height : 100vh;
+    z-index : 1063
+}

@@ -1,0 +1,14 @@
+.transaction{
+
+}
+.transaction .card{
+    border-radius: 0;
+    
+}
+.transaction .card-header .fa{
+    height: 20px;
+    width: 20px;
+}
+.transaction .history-transaction{
+    color: white;
+}

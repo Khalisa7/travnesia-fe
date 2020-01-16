@@ -1,0 +1,6 @@
+.book .card{
+    border-bottom: 2px solid rgb(56, 148, 253);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

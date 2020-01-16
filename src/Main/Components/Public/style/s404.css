@@ -1,0 +1,36 @@
+._404{
+    padding:12% 0;
+    color: #F1FAEE;
+
+}
+._404 h1{
+    color: #FF6243;
+    font-style: bold;
+    padding-bottom: 5px;
+    float: right;
+    font-size: 55px;
+}
+._404 h2{
+    color: rgb(7, 7, 7);
+    font-style: bold;
+    padding-bottom: 6px;
+    text-justify: newspaper;
+    border-bottom: 2px;
+}
+._404 .col-md-6 p{
+    font-size: 17px;
+    margin-top: 5px !important;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+}
+._404 img{
+    height: 150px;
+    width: 130px;
+    float: right;
+    margin-right: 30%; 
+}
+._404 ul.li.a{
+    color: teal;
+    padding-top: 3px;
+}

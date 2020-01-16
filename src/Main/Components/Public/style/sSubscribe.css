@@ -1,0 +1,64 @@
+#more-info {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("https://s3-ap-southeast-1.amazonaws.com/travnesia/public/static/red-bg.png");
+    background-size: 126px 21px;
+}
+#more-info .row-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    margin-bottom: 30px;
+}
+#more-info .row-subtitle {
+    color: #dbeef9;
+    font-size: 16px;
+    margin-bottom: 45px;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+#more-info .row-subtitle {
+    font-weight: 500;
+}
+
+#more-info .row-subtitle {
+    width: 65%;
+    margin: auto;
+}
+#more-info .get-started-button {
+    padding: 7px 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #ffffff;
+    border: 1px solid #a8ddfd;
+    display: inline-block;
+    background-color: transparent;
+}
+#more-info form{
+    margin-top: 15px;
+}
+#more-info .form-control{
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.3);
+}
+
+@media (max-width: 575px) {
+    #more-info .row-subtitle {
+        width: 100%;
+        font-size: 14px;
+        margin: auto;
+    }
+} 
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}

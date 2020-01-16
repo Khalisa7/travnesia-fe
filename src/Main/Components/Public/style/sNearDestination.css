@@ -1,0 +1,24 @@
+.near-destination {
+  margin-bottom: 30px;
+}
+
+.near-destination-heading {
+  margin-bottom: 20px;
+}
+
+./*near-destination-owl-outer .item {
+  height: 200px;
+}*/
+.near-destination-owl-outer .item .card img.card-img {
+  height: 100%;
+}
+.near-destination-owl-outer .card-img-overlay {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.near-destination-owl-outer .item .card-title {
+  font-weight: bolder;
+}
+
+

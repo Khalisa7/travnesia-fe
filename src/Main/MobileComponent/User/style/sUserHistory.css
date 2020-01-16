@@ -1,0 +1,22 @@
+.user-history{
+    margin-bottom:50px;
+}
+.user-history .media{
+    border-bottom: 1px solid #ced2d6;
+}
+.user-history .table-sm td, .user-history .table-sm th{
+    padding: .1rem;
+}
+.user-history .history-img{
+    height: 150px;
+}
+.history-content td{
+    font-size : 14px;
+}
+.history-content h5{
+    margin-bottom : 5px;
+    color : black;
+}
+.history-delete{
+    color : rgb(140, 143, 143);
+}

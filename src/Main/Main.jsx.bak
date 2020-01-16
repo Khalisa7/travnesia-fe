@@ -1,0 +1,247 @@
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import Routing from './Routing/Routing'
+import logo from './Components/Public/img/logo_sticky.png'
+import './Main.css'
+import Translations from './../localization/translations.js'
+import LocalizedStrings from 'react-localization'
+import AccessControl from './../_config/middleware/AccessControl'
+
+class Main extends Component {
+    constructor (props) {
+        super(props)
+        this.state = {
+            navBar: true,
+            sideBar: false,
+            mobile: false
+        }
+
+        this.AccessControl = new AccessControl ()
+        this.handleClick = this.handleClick.bind(this)
+        this.handleClickSideBar = this.handleClickSideBar.bind(this)
+
+        //Get Translations
+        this.Translations = new Translations()
+        var translate = this.Translations.locale()
+        this.lang = new LocalizedStrings({translate});
+    }
+
+    loginCheck(){
+       return this.AccessControl.loggedIn()
+    }
+
+    user(){
+        return this.AccessControl.user()
+    }
+
+    handleClick () {
+        this.setState(state => ({
+            navBar: !state.navBar
+        }));
+    }
+
+    handleClickSideBar () {
+        this.setState(state => ({
+            sideBar: !state.sideBar
+        }))
+    }
+
+    handleClickSignOut (){
+        localStorage.clear()
+    }
+
+    renderMainNavBar () {
+        if (this.loginCheck()){
+            return(
+                <nav className='navbar navbar-expand-lg fixed-top'>
+
+                    <div className='container'>
+                        <button type='button' id='sidebarCollapse' className='btn'
+                                onClick={(e) => this.handleClickSideBar()}>
+                            <i className='fa fa-bars fa-fw f-primary-color' /><span className='' />
+                        </button>
+                        <Link to="/" >
+                            <img src={logo} alt='Tripdize' className='brand-logo ml-2' />
+                        </Link>
+                        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+                            <ul className='nav navbar-nav ml-auto'>
+                            <li className='nav-item'>
+                                    <div className="nav-link">
+                                        <Link to="/" >Home</Link>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link">
+                                        <Link to="/travel" >Travel</Link>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link">
+                                        <Link to="/tiket" >Tiket</Link>
+                                    </div>
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link dropdown-toggle f-white btn btn-sm btn-travnesia pr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span>
+                                            <i className="fa fa-user-circle float-left mr-2 p-1"/>
+                                        </span>
+                                        {this.user()}
+                                    </a>
+                                    <div className="dropdown-menu mt-2" aria-labelledby="navbarDropdownMenuLink">
+                                        <a className="dropdown-item" href="#">My Account</a>
+                                        <a className="dropdown-item" href={process.env.PUBLIC_URL} onClick={this.handleClickSignOut}>Sign Out</a>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link f-24 pt-0 pb-0 bl-2 pr-2">
+                                        <Link to="/cart" >
+                                            <i className='fa fa-cart-plus f-primary-color' />
+                                            <span className='badge badge-pill badge-warning badge-cart'>0</span>
+                                        </Link>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            )
+        } else {
+            return(
+                <nav className='navbar navbar-expand-lg fixed-top'>
+                    <div className='container'>
+                        <button type='button' id='sidebarCollapse' className='btn'
+                                onClick={(e) => this.handleClickSideBar()}>
+                            <i className='fa fa-bars fa-fw f-primary-color' /><span className='' />
+                        </button>
+                        <Link to="/" >
+                            <img src={logo} alt='Tripdize' className='brand-logo ml-2' />
+                        </Link>
+                        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
+                            <ul className='nav navbar-nav ml-auto'>
+                                <li className='nav-item'>
+                                    <div className="nav-link">
+                                        <Link to="/" >Home</Link>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link">
+                                        <Link to="/travel" >Travel</Link>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link">
+                                        <Link to="/tiket" >Tiket</Link>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link f-primary-color">
+                                        <Link to="/signin" >Sign In</Link>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link f-white btn btn-warning pl-4 pr-4">
+                                        <Link to="/signup" >Register</Link>
+                                    </div>
+                                </li>
+                                <li className='nav-item'>
+                                    <div className="nav-link f-24 pt-0 pb-0 bl-2 pr-2">
+                                        <Link to="/cart" >
+                                            <i className='fa fa-cart-plus f-primary-color' />
+                                            <span className='badge badge-pill badge-warning badge-cart'>0</span>
+                                        </Link>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+            )
+        }
+    }
+
+    renderMainNavigation  ()  {
+        if(this.loginCheck()){
+            return(
+                <div>
+                    <nav id='sidebar' className={this.state.sideBar ? 'active' : null}>
+                        <div id='dismiss' onClick={this.handleClickSideBar}>
+                            <i className='fa fa-arrow-left' />
+                        </div>
+                        <div className='sidebar-header'>
+                            <img src={logo} alt='' className='brand-logo' />
+                        </div>
+                        <ul className='list-unstyled components'>
+                            <li><a href={process.env.REACT_APP__BASEURL}>Home</a></li>
+                            <li><a href={process.env.REACT_APP__BASEURL+'u/dash'}>My Profile</a></li>
+                            <li><a href={process.env.REACT_APP__BASEURL+'u/book'}>My Booking</a></li>
+                            <li><a href={process.env.REACT_APP__BASEURL+'u/history'}>My History</a></li>
+                            <li><a href='#'>Event</a></li>
+                            <li><a href='#'>Contact Us</a></li>
+                            <li><a href='#'>FAQ</a></li>
+                            <hr/>
+                        </ul>
+                    </nav>
+
+                    <div id='content-wrapper'>
+                        {this.renderMainNavBar()}
+                        <div id='main-content'>
+                            <Routing />
+                        </div>
+                    </div>
+                    <div className={this.state.sideBar ? 'overlay active' : 'overlay'} onClick={this.handleClickSideBar} />
+                </div>
+            )
+        }else{
+            return(
+                <div>
+                    <nav id='sidebar' className={this.state.sideBar ? 'active' : null}>
+                        <div id='dismiss' onClick={this.handleClickSideBar}>
+                            <i className='fa fa-arrow-left' />
+                        </div>
+                        <div className='sidebar-header'>
+                            <img src={logo} alt='' className='brand-logo' />
+                        </div>
+                        <ul className='list-unstyled components'>
+                            <li>
+                                <Link to="/" >Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/travel" >Paket Travel</Link>
+                            </li>
+                            <li>
+                                <Link to="/tiket" >Tiket Event</Link>
+                            </li>
+                            <li>
+                                <Link to="/signin" >Sign In</Link>    
+                            </li>
+                            <li>
+                                <Link to="/signup" >Sign Up</Link>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div id='content-wrapper'>
+                        {this.renderMainNavBar()}
+                        <div id='main-content'>
+                            <Routing />
+                        </div>
+                    </div>
+                    <div className={this.state.sideBar ? 'overlay active' : 'overlay'} onClick={this.handleClickSideBar} />
+                </div>
+            )
+        }
+    }
+
+    render () {
+        return (
+            <div>
+                <Router>
+                    {this.renderMainNavigation()}
+                </Router>
+            </div>
+        )
+    }
+}
+
+export default Main

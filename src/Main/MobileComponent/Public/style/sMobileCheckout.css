@@ -1,0 +1,50 @@
+.mobile-checkout{
+    padding-top: 8px;
+}
+
+.mobile-checkout .text-title{
+    padding-left: 30px;
+}
+
+.mobile-checkout .card-destination{
+    background-color: #ffffff;
+}
+
+.mobile-checkout .mobile-travel-card .media{
+    width: 100%!important;
+}
+
+.mobile-checkout .mobile-travel-card{
+    margin-top: 0!important;
+    margin-bottom: 20px!important;
+}
+
+.mobile-checkout .row-custom .row{
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.mobile-checkout .detail-travel-card p{
+    font-size: 15px;
+}
+
+.mobile-checkout .detail-travel-card strong{
+    color: var(--primary-color);
+    font-size: bold;
+}
+
+.mobile-checkout .detail-checkout .fa-white{
+    color: #ffffff;
+}
+
+.mobile-checkout .detail-checkout label{
+    padding-top: 10px;
+}
+
+.mobile-checkout .button-checkout-submit {
+    padding-top: 15px;
+}
+
+.mobile-checkout .button-checkout-submit button{
+    width: 50%;
+}

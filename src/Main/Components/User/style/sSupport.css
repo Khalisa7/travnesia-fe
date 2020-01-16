@@ -1,0 +1,11 @@
+.styles_overlay__CLSq-{
+    padding: 4rem;
+}
+.userSupport table tbody tr:hover{
+    box-shadow: 0 8px 6px -6px #00000085;
+    cursor: pointer;
+}
+.userSupport table tbody tr th a{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,33 @@
+.m_topbranding .owl-stage-outer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.m_topbranding span, .m_topbranding p{
+    font-size: 14px;
+}
+
+.m_topbranding .mobile-owl-carousel .owl-stage{
+    padding: 0 !important;
+}
+
+.m_topbranding .mobile-owl-carousel .card img{
+    height: 175px;
+}
+
+.m_topbranding .mobile-owl-carousel .line-2{
+    display: inline-flex;
+    font-size: 14px;
+}
+
+.m_topbranding .mobile-owl-carousel .line-2 p{
+    margin-right: 4px;
+}
+
+.m_topbranding .mobile-owl-carousel .card-body p{
+    font-size: 12px;
+}
+
+.m_topbranding .mobile-owl-carousel .card-body p .price{
+    color: #f39c12;
+}

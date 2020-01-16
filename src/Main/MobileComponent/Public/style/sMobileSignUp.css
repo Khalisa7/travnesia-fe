@@ -1,0 +1,19 @@
+.signUp-mobile{
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signUp-mobile .page-heading p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.signUp-mobile .text-quotes-sign-up{
+    margin-top: 160px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+}

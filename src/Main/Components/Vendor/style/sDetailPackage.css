@@ -1,0 +1,46 @@
+.detail-package-partner #span-red{
+  color: red;
+}
+
+.detail-package-partner .description-text{
+  text-indent: 40px;
+  text-align: justify;
+}
+
+.detail-package-partner #image-include-pax{
+  padding-top:15px;
+  height: 60px;
+}
+
+.detail-package-partner #facility-name{
+  margin-top: 5px;
+  font-size: 1rem;
+  color: black;
+}
+/*  */
+.vendor-monitor .card .card-header.bg-icon{
+  background: url("https://image.flaticon.com/icons/svg/235/235507.svg");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 90% 55%;
+}
+.vendor-monitor .card hr{
+  width: 70px;
+  margin: 7px 0;
+  background: var(--primary-color);
+}
+/*  */
+.vendor-navigasi #myTabContent{
+  border: none;
+  padding: 30px 0;
+}
+.vendor-navigasi .nav-tabs{
+  border: none;
+}
+.vendor-navigasi .nav-tabs .nav-link{
+  border:none;
+
+}
+.vendor-navigasi .nav-tabs .nav-link.active{
+  border-bottom:2px solid var(--primary-color);
+}

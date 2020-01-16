@@ -1,0 +1,36 @@
+/* .header-previous{
+    height: 50px;
+    background-color : #dc3545;
+}
+.header-back{
+    margin-top: 9px;
+    margin-left: 20px;
+    color: white;
+}
+.header-back i{
+    font-size: 24px;
+    margin-right: 18px;
+}
+.header-back h5{
+    margin-top: 1px;
+}
+.header-back2{
+    display : flex;
+} */
+
+.header-previous{
+    display : flex;
+    height : 50px;
+    background-color : white;
+}
+.header-back {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #dc3545;
+}
+.header-previous h5{
+    margin-top: 11px;
+    margin-left: 10px;
+    color: #dc3545;
+}

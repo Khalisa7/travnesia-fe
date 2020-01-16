@@ -1,0 +1,24 @@
+.mail-reset-password{
+    min-height: 650px;
+    background: #eeee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.mail-reset-password.text-quotes-sign-up{
+    margin-top: 160px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.mail-reset-password .btn-block{
+    width: 39%;
+}
+
+.mail-reset-password .card-body{
+    padding : 2.25rem;
+}

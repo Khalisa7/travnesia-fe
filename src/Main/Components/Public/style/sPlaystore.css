@@ -1,0 +1,77 @@
+.playstore{
+    background: url(https://images.pexels.com/photos/1555581/pexels-photo-1555581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+}
+.playstore .advantage .card{
+    background: var(--third-color);
+    text-align: center;
+}
+.playstore .advantage .card img{
+    height: 50px;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.playstore .advantage{
+    padding:10% 15px;
+} 
+.playstore .advantage .page-heading, .playstore .advantage .page-heading .text-center>p{
+    color: white;
+}
+.playstore .advantage .card p{
+    color:black;
+}
+.playstore .playstore-icon{
+    margin: auto;
+}
+.playstore .playstore-icon img{
+    height: 300px;
+    margin: auto;
+}
+.playstore .playstore-icon .playstore-btn{
+    margin: auto;
+} 
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575px) {
+    .playstore{
+        width: 100%;
+        height: 1024px;
+    }
+    .playstore .advantage{
+        margin-top:40px;
+    }
+    .playstore .advantage .card p{
+        font-size: 12px;
+    }
+    .playstore .advantage .page-heading, .playstore .advantage .page-heading .f-white{
+        color: var(--secondary-color);
+    }
+    .playstore .advantage .page-heading, .playstore .advantage .page-heading .text-center>p{
+        color: var(--secondary-color);
+    }
+} 
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    .playstore{
+        width: 100%;
+        height: 1024px;
+    }
+    .playstore .advantage .card img{
+        padding:15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

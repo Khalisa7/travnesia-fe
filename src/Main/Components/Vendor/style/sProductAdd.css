@@ -1,0 +1,6 @@
+.vendorProductAdd .nav-item.nav-link.active{
+    background: none;
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0;
+}

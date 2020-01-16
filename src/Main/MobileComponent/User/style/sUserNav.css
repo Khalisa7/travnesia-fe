@@ -1,0 +1,20 @@
+.user-nav .fa{
+    font-size: 20px;
+    color: var(--primary-color)
+}
+/* @media (max-width: 575px) {
+    .user-nav .card{
+        overflow-x: scroll;
+    }
+    .user-nav .fa{
+        font-size: 20px;
+        color: var(--primary-color)
+    }
+    .user-nav ul.nav{
+        display: -webkit-inline-box;
+    } 
+    .user-nav ul li.nav-item .nav-link{
+        width: 135px;
+        padding: 0;
+    }
+} */

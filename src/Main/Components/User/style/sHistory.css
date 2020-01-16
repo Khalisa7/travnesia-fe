@@ -1,0 +1,6 @@
+.cUserHistory .media{
+    border-left: 4px solid rgb(0, 153, 255)
+}
+.cUserHistory .media .media-img{
+    width: 150px;
+}

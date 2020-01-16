@@ -1,0 +1,181 @@
+.travel_search{
+    margin-top:40px;
+}
+.travel_search .page-heading h6{
+    font-weight: 500;
+}
+#collapseSearch{
+    background: white;
+    position: relative;
+}
+#collapseSearch .card{
+    border:2px solid var(--fourth-color);
+    overflow: visible;
+
+}
+#collapseSearch .card .card-body{
+}
+#collapseSearch p{
+    color: var(--fourth-color);
+}
+.travel_search .css-1492t68{
+    font-size: 14px;
+}
+.travel_search .react-datepicker-wrapper, .travel_search .react-datepicker__input-container{
+    display: inline-table;
+    width: 100%;
+}
+
+/* -- TRAVEL FILTER -- */
+
+
+.travel_filter .page-heading {
+    color: black;
+}
+.travel_filter .page-heading .fa{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 2px;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+}
+.travel_filter ul:last-child{
+    margin-bottom: 25px;
+}
+.travel_filter form .form-check{
+    padding-left: 1.5rem ;
+    margin: 5px;
+}
+.travel_filter form .form-check input{
+    font-size: 4em;
+}
+.travel_filter form .form-check label{
+    margin-top:3px;
+    color: var(--fourth-color);
+}
+.travel_filter form .form-rating .form-check label .fa{
+    font-size: 20px;
+}
+.travel-filter-mrg{
+    margin-top:31px;
+}
+.travel_promo #travelPromoSlide .carousel-item{
+    height: 300px;
+    overflow: hidden;
+}
+.travel_promo #travelPromoSlide img{
+    position: relative;
+}
+.travel_promo #travelPromoSlide .carousel-item .carousel-caption{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: var(--secondary-color);
+    height: 80px;
+}
+.travel_promo #travelPromoSlide .carousel-item .carousel-caption p{
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+/* .travel_promo .card{
+    height: 250px !important;
+} */
+.travel_promo .card .card-img{
+    height: 100%;
+    border-radius: 0;
+    overflow: hidden;
+}
+.travel_promo .card .card-body{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: var(--secondary-color);
+    color: white;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.travel_promo .card .card-body p{
+    height: 20px;
+    overflow: hidden;
+    width:100%;
+}
+.travel_promo .card.promoCaption{
+    height: 300px !important;
+}
+.travel_promo .card.promoCaption2{
+    height: 140px !important;
+    margin-top:0;
+    margin-bottom:20px;
+}
+.travel_promo .card.promoCaption2 .card-body{
+    height: 50px !important;
+}
+
+/* TRAVEL RANGE */
+.travel_filter .range-price{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.travel_filter .custom-range{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 575px) {
+    .travel_promo #travelPromoSlide .carousel-item{
+        height: 200px;
+        overflow: hidden;
+    }
+    .travel_promo .card.promoCaption{
+        height: 200px !important;
+    }
+    .travel_promo .card.promoCaption2{
+        height: 90px !important;
+        margin-top:0;
+        margin-bottom:20px;
+    }
+} 
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .travel_filter .sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top:80px;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .travel_filter .sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top:80px;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 1200px) {  
+    .travel_filter .sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top:80px;
+        height: 100%;
+    }
+}

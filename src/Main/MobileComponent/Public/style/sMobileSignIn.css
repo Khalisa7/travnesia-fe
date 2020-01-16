@@ -1,0 +1,23 @@
+
+.signIn{
+    min-height: 650px;
+}
+
+.signIn .card img{
+    height: auto;
+}
+
+.signIn img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.img-signin{
+    margin-top:10px;
+}
+.forgot-password{
+    color: rgb(28, 155, 240);
+    padding-top: 5px;
+    font-size: 12px;
+}

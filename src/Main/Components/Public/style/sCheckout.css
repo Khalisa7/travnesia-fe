@@ -1,0 +1,177 @@
+.checkout{
+    min-height: 720px;
+    /* background: #dfc092; */
+}
+.checkout .card{
+    background: none;
+}
+.checkout .chekout-form-container{
+    /* border-left: 4px solid var(--primary-color); */
+    border-left: 4px solid orange;
+}
+.checkout .col-md-4 span{
+    font-size: 14px;
+}
+.checkout .col-md-4 span.float-right .fa{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 2px;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+}
+.render-destination {
+    margin-bottom : 10px;
+}
+.render-destination .span-destination{
+    padding-left: 4.5rem!important;
+    padding-right: 4.5rem!important;
+}
+
+.render-destination .icon-render-destination{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    margin-right: 4px;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    border-radius: 20%;
+}
+
+.render-destination .icon-render-destination i{
+    margin: 4px;
+}
+.render-destination-content{
+    padding-left : 10px;
+    padding-right : 10px;
+}
+.checkout .card{
+    overflow: visible;
+}
+.checkout .bank_logo.logo_bca{
+    background: url(../img/logo_bca.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+
+}
+.input-group .col-xs-4{
+    padding-bottom: 10px;
+    width: 100%;
+}
+.checkout .bank_logo{
+    background-position: center;
+    background-color: rgba(234, 241, 241, 0.993) !important;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top:  3px;
+      margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: left;
+}
+.checkout .bank_logo.logo_bri{
+    background: url(../img/logo_bri.png) no-repeat;
+    background-position: center;
+    background-size: 50px 15px ;
+}
+.checkout .bank_logo.logo_bca{
+    background: url(../img/logo_bca.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+
+}
+.checkout .bank_logo.logo_visa{
+    background: url(../img/logo_visa.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+
+}
+.checkout .bank_logo.logo_prima{
+    background: url(../img/logo_prima.png) no-repeat;
+    background-position: center;
+    background-size: 50px 30px ;
+
+}
+.checkout .bank_logo.logo_cimb{
+    background: url(../img/logo_cimb.png) no-repeat;
+    background-position: center;
+    background-size: 55px 30px ;
+
+}
+.checkout .bank_logo.logo_link{
+    background: url(../img/logo_link.png) no-repeat;
+    background-position: center;
+    background-size: 50px 20px ;
+
+}
+.checkout .bank_logo.logo_atm{
+    background: url(../img/logo_atm.png) no-repeat;
+    background-position: center;
+    background-size: 60px 30px ;
+}
+.checkout .bank_logo.logo_indomaret{
+    background: url(../img/logo_indomaret.png) no-repeat;
+    background-position: center;
+    background-size: 40px 25px ;
+}
+.checkout .bank_logo.logo_mandiri{
+    background: url(../img/logo_mandiri.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+}
+
+.checkout .bank_logo.logo_alfamart{
+    background: url(../img/logo_alfamart.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+}
+.checkout .bank_logo.logo_bni{
+    background: url(../img/logo_bni.png) no-repeat;
+    background-position: center;
+    background-size: 60px 30px ;
+    
+}
+
+.checkout-list{
+    background-color: #ffffff;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    max-height :144px;
+}
+
+.checkout-title{
+    display : flex; 
+    padding-top: 5px;
+}
+.checkout-star {
+    margin-left : 10px;
+}
+.checkout-total h5{
+    color: #dc3545;
+    margin-left : 100px;
+}
+.checkout-total {
+    padding-right: 34px;
+    display: -webkit-box;
+}
+.checkout-content{
+    margin-right : 0px;
+    margin-left :0px;
+    width: 100%
+}
+.render-destination .row{
+    margin-right : 0px;
+    margin-left :0px;
+}
+.render-destination .card {
+    overflow: hidden;
+}
+
+@media (max-width:991px){
+    .checkout-list {
+        max-height: 173px;
+    }
+    .checkout-total h5 {
+        margin-left : 66px;
+    }
+}

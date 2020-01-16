@@ -1,0 +1,136 @@
+.cart{
+    min-height: 500px;
+    padding-bottom: 60px;
+}
+.cart .media{
+    overflow: visible;
+    border-bottom: 2px solid rgb(52, 133, 255);
+}
+.cart .media .media-img{
+    overflow: hidden;
+    width: 170px;
+    height: 230px;
+}
+.cart .media .media-img img{
+    height: 100%;
+    position: relative;
+}
+.cart .media .media-body{
+    height: 230px;
+}
+.cart .media .media-body .fa.fa-star{
+    margin: 1px;
+}
+.cart .media .media-body .fa.fa-money{
+    color: green;
+}
+.cart .media img{
+    height: 230px;
+    position: relative;
+}
+.cart .media .badge.badge-danger:first-child{
+    margin-left: 0;
+}
+.cart .media .badge.badge-danger{
+    margin:0 2px;
+}
+.input-pack{
+    display: inline-flex;
+}
+
+.count-pakage .number{
+    width: 56px;
+    border-radius: 0px;
+    margin-left: 0px;
+    font-size: 14px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 0px;
+    height: 37px;
+    display: flex;
+}
+
+.count-pakage .fa-minus{
+    height: 37px;
+    width: 39px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.count-pakage .fa-plus{
+    height: 37px;
+    width: 39px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.navbar.fixed-bottom h2 span{
+    font-weight: 900;
+}
+
+@media (max-width: 575px) {
+    .cart .DayPickerInput input {
+        widows: 100px !important;
+    }
+    .cart .media .media-img{
+        display: none;
+    }
+    .cart .media .media-img img{
+        height: 100%;
+        position: relative;
+    }
+    .cart form label{
+        display: none;
+    }
+    .navbar.fixed-bottom h2 span{
+        display: none;
+    }
+    .cart .media .media-body{
+        height: 200px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cart .DayPickerInput input {
+        width: 250px;
+    }
+    .cart form label{
+        display: none;
+    }
+    .cart .media .media-body{
+        height: 200px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cart .DayPickerInput input {
+        width: 250px;
+    }
+    .cart form label{
+        display: none;
+    }
+    .cart .media .media-body{
+        height: 200px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cart .DayPickerInput input {
+        width: 250px;
+    }
+    .cart .media .media-body{
+        height: 200px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+}
+
+::-webkit-input-placeholder{
+    font-size: 14px;
+}

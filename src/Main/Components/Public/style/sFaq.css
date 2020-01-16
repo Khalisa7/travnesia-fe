@@ -1,0 +1,120 @@
+.faq{
+    min-height: 720px;
+}
+.faq .sticky{
+    padding-top: 5px;
+}
+.faq ul li.list-group h6{
+    font-style: bold;
+    font-size: 15px;
+    color: var(--fourth-color);
+}
+.faq ul li.list-group .titleFaq{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    background-color: #E63946;
+    color: white;
+}
+.faq .sticky-nav .affix-top{
+    position: fixed;
+    max-height: 100%;
+    padding-top: 20px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.faq .sticky .clearfix .float-right .fa{
+    font-size: 14px;
+    font-weight: 100;
+    padding: 2px;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+}
+.faq ul li.list-group-item{
+    background: none;
+       border-bottom: none;
+    border-top: none;
+    border-right: none;
+}
+
+
+.faq ul li.list-group-item h6:hover{
+    color:  rgb(41, 40, 40);
+    transition: 0.7s ease;
+    font-style: bold;
+
+}
+.faq ul li.list-group-item .collapse .card-body p{
+    justify-content: center;
+}
+.faq ul li .content:hover{
+    background: rgb(5, 5, 5);
+    transition: 0.7s ease; 
+}
+.faq ul li .card .card-body{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+
+.faq ul li .card .card-body{
+    border-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* .faq ul li .flo
+at-left:hover{
+    background: #becbd1;
+    transition: 0.7s ease;
+} */
+.faq ul li .clearfix h6{
+    color: var(--fourth-color);
+}
+.faq ul li .clearfix span .fa{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.faq ul li.list-group-item i.fa{
+    
+    font-size: 14px;
+    font-weight: 100;
+}
+@media (max-width: 575px) {
+
+} 
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+        .sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top:80px;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        .sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top:80px;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 1200px) {  
+        .sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top:80px;
+        height: 100%;
+    }
+}

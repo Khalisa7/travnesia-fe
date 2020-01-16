@@ -1,0 +1,15 @@
+
+.vendorProduct #myTabContent{
+    border: none;
+    padding: 30px 0;
+}
+.vendorProduct .nav-tabs{
+    border: none;
+}
+.vendorProduct .nav-tabs .nav-link{
+    border:none;
+
+}
+.vendorProduct .nav-tabs .nav-link.active{
+    border-bottom:2px solid var(--primary-color);
+}

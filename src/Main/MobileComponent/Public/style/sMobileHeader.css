@@ -1,0 +1,117 @@
+
+
+.m_Header{
+    margin-top: 50px;
+    background: var(--primary-color);
+}
+.m_Header .m_Search .card{
+    height: 80px;
+}
+
+.m_Header .m_Search .card:hover{
+    cursor: pointer;
+}
+.m_Header .m_Search .card p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.m_Header .m_Search .card.travel{
+    background: url("https://image.flaticon.com/icons/svg/1042/1042339.svg");
+    background-position: center 15px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    /* height: 80px;
+    width: 120px; */
+}
+.m_Header .m_Search .card.event-ticket{
+    background: url("https://image.flaticon.com/icons/svg/785/785550.svg");
+    background-position: center 15px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    /* height: 80px;
+    width: 120px; */
+}
+.m_Header .m_Search .card.honey-moon{
+    background: url("../img/wedding-couple.png");
+    background-position: center 15px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    /* height: 80px;
+    width: 120px; */
+}
+
+.m_Header .m_Search .card.family-vacation{
+    background: url("../img/family.png");
+    background-position: center 15px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    /* height: 80px;
+    width: 120px; */
+}
+.m_Header .m_Search .card.tiket-konser{
+    background: url("../img/tickets.png");
+    background-position: center 10px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+     /* height: 80px;
+    width: 120px; */
+}
+.m_Header .m_Search .card.promo{
+    background: url("../img/discount.png");
+    background-position: center 15px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    /* height: 80px;
+    width: 120px; */
+}
+
+.m_Header .modal,
+.m_Header .modal-dialog,
+.m_Header .modal-content{
+    height: 100%;
+}
+.m_Header .modal-dialog{
+    margin: 0;
+}
+.m_Header .modal-content{
+    border-radius: 0;
+}
+.m_Header .modal-content .modal-header{
+    border-radius: 0;
+}
+
+
+
+@media screen and (max-width:320px)
+{
+    .m_Header .m_Search .card.travel{
+        background: url("https://image.flaticon.com/icons/svg/1042/1042339.svg");
+        background-position: center 15px;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        /* height: 80px;
+        width: 120px; */
+    }
+    .m_Header .m_Search .card.event-ticket{
+        background: url("https://image.flaticon.com/icons/svg/785/785550.svg");
+        background-position: center 15px;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        /* height: 80px;
+        width: 120px; */
+    }
+    
+}
+
+
+/*height fix for iphone 5*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    .form-group {
+        margin-bottom: .5rem;
+    }
+}
+

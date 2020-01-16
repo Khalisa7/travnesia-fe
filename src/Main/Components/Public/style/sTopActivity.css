@@ -1,0 +1,36 @@
+.top-activity{
+  margin:50px 0;
+}
+.top-activity .owl-stage-outer{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.card span.bg-primary{
+  background: var(--fourth-color) !important;
+}
+
+.top-activity .card img{
+  height: 175px;
+}
+
+.top-activity span{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.top-activity .line-2{
+  display: inline-flex;
+  font-size: 9px;
+}
+
+.top-activity .line-2 p{
+  margin-right: 4px;
+}
+
+.top-activity .card-body p{
+  font-size: 12px;
+}
+
+.top-activity .card-body p .price{
+  color: #f39c12;
+}

@@ -1,0 +1,28 @@
+.popular-travel {
+    margin-bottom: 30px;
+  }
+  
+  .popular-travel-heading {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .popular-travel-owl-outer .item .card{
+      height: 170px;
+  }
+  
+  .popular-travel-owl-outer .item .card img.card-img {
+    height: 100%;
+    object-fit: cover;
+
+  }
+  .popular-travel-owl-outer .card-img-overlay {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popular-travel-owl-outer .item .card-title {
+    font-weight: bolder;
+  }
+  
+  
+  

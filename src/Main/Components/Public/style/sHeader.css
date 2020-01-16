@@ -1,0 +1,63 @@
+.header>.header-banner{
+    min-height: 340px;
+    background: #dc3546;
+}
+.header .owl-carousel.owl-loaded{
+    margin-top: 15px;
+}
+.header .owl-stage-outer{
+    height: 240px;
+}
+.header .owl-carousel.owl-loaded .card{
+    height: 230px;
+}
+.header .owl-carousel.owl-loaded .card img{
+    height: 240px;
+}
+.header .owl-carousel.owl-loaded .owl-item.first-of-type{
+    margin-left: 25%;
+}
+.header .owl-carousel .owl-nav{
+    margin-top: 0;
+}
+.header .owl-carousel .owl-nav button.owl-prev,.header .owl-carousel .owl-nav button.owl-next,.header .owl-carousel button.owl-dot{
+    font-size: 24px;
+    color: white;
+}
+.header .owl-theme .owl-nav [class*='owl-']:hover{
+    background: none;
+}
+
+.header .home-search{
+    margin-top: -50px;
+}
+.header .home-search .card{
+    border: 2px solid var(--fourth-color);
+    height: 80px;
+}
+.header .home-search .card.event-ticket{
+    background: url("https://image.flaticon.com/icons/svg/785/785550.svg");
+    background-position: center top;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 0;
+    text-align: center;
+    padding: 5px 0;
+    /* height: 80px;
+    width: 120px; */
+}
+.header .home-search .card.travel{
+    background: url("https://image.flaticon.com/icons/svg/1042/1042339.svg");
+    background-position: center top;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 0;
+    text-align: center;
+    padding: 5px 0;
+    /* height: 80px;
+    width: 120px; */
+}
+.header .react-datepicker-wrapper, .header .react-datepicker__input-container{
+    display: inline-table;
+    width: 100%;
+}

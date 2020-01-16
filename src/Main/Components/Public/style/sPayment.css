@@ -1,0 +1,69 @@
+.user-payment{
+    min-height: 720px;
+}
+.user-payment .media .media-body{
+    height: 100%;
+}
+.user-payment .media-img{
+    max-width: 200px;
+    max-height: 120px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.user-payment .media-img img{
+    width: 250px;
+}
+
+.user-payment .detail-payment{
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* .invoice-payment{
+    font-size: 27px;
+} */
+.detail-payment .context-menu {
+    cursor: context-menu;
+    
+}
+
+.detail-payment h6{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.detail-payment strong{
+    font-size: 22px;
+}
+
+.user-payment #accordion {
+    width: 80%;
+
+}
+
+.user-payment #collapseOne{
+    background: ghostwhite;
+}
+.collapse .card-body{
+    display: flex;
+}
+
+.user-payment img{
+    width: 60%;
+    text-align: center;
+}
+
+.user-payment .image-payment{
+    text-align: center;
+}
+.instruction-payment{
+    display: flex
+}
+#accordion #headingOne{
+    padding: 4px;
+}
+.collapse-payment{
+    margin-bottom: 25px;
+}
+#accordion {
+    margin-top: 20px;
+}

@@ -1,0 +1,66 @@
+.header_pages{
+    height: 300px;
+    background: url("https://s3-ap-southeast-1.amazonaws.com/travnesia/public/static/resource/travel-page-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background: var(--primary-color); */
+    /* background: linear-gradient(90deg, #FD0054 0%, rgb(255, 95, 32) 100%); */
+    /* background: url("../img/bg_header.png") no-repeat; */
+    /* background-size: cover; */
+    /* padding-top:80px; */
+    /* padding-left: 25px; */
+}
+.header_pages h1{
+    /* color: var(--secondary-color); */
+    color: rgb(61, 168, 255);
+    /* color: white; */
+}
+.header_pages p{
+    color: white;
+}
+.header_pages .header_caption{
+    padding-top: 50px;
+    height: 300px;
+    background: url("https://image.flaticon.com/icons/svg/858/858859.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px ;
+    background-size: 200px;
+}
+.header_pages .blockquote{
+    font-size: 14px;
+    color: var(--secondary-color);
+
+}
+
+
+@media (max-width: 575px) {
+    .header_pages .header_caption{
+        padding-top: 50px;
+        height: 300px;
+        background: none;
+    }
+} 
+
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    .header_pages .header_caption{
+        padding-top: 50px;
+        height: 300px;
+        background: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+
+@media (min-width: 1200px) {  
+    
+}

@@ -1,0 +1,31 @@
+.mobile-footer{
+    background: #464646;
+    color: white;
+    padding-top:50px;
+    padding-bottom:20px;
+}
+
+.mobile-footer .image-mobile-store span{
+    color: #949494;
+}
+
+.mobile-footer .image-mobile-store{
+    display: inline;
+}
+
+.mobile-store-image img{
+    width: 130px;
+}
+.mobile-footer i{
+    margin: 15px 10px;
+    font-size: 18px;
+}
+
+.mobile-footer .mobile-cs{
+    display: inline;
+}
+
+.mobile-footer p, .mobile-footer span{
+    color: white;
+}
+

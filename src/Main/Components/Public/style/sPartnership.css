@@ -1,0 +1,55 @@
+.partnership-dekstop{
+    min-height: 131px;
+}
+.partnership-dekstop img{
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(100%);
+
+}
+.partnership-dekstop .sprites-partnership {
+    background : url('../img/partnership.png');
+    height: 68px;
+    width: 150px;
+    margin-left: 20px;
+    display: inline-block;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.partnership-dekstop .sprites-hover:hover{
+    -webkit-filter: none;
+    filter: none;
+}
+.partnership-dekstop .sprites-1{
+    background-position-y: -8px;
+}
+.partnership-dekstop .sprites-2{
+    background-position-y: -225px;
+}
+.partnership-dekstop .sprites-3{
+    background-position-y: -94px;
+}
+.partnership-dekstop .sprites-4{
+    background-position-y: -322px;
+}
+
+.partnership-dekstop .sprites-bank {
+    background : url('../img/bank.png') no-repeat;
+    height: 68px;
+    width: 150px;
+    margin-left: 20px;
+    background-size: cover;
+    display: inline-block;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.partnership-dekstop .sprites-5{
+    background-position-y: -8px;
+}
+.partnership-dekstop .sprites-6{
+    background-position-y: -103px;
+}
+.partnership-dekstop .sprites-7{
+    background-position-y: -211px;
+}

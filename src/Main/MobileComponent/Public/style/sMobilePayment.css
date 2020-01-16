@@ -1,0 +1,13 @@
+.mobile-payment{
+    margin-top: 55px;
+    background-color: #ffffff;
+    border: #ffffff;
+}
+
+.mobile-payment .button-footer button{
+    width: 50%;
+}
+
+.mobile-payment .media-body{
+    width: 100%;
+}

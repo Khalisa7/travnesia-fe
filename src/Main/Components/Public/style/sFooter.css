@@ -1,0 +1,107 @@
+.dekstop-footer {
+    background: #464646;
+    color: white;
+    padding-top:50px;
+    padding-bottom:20px;
+}
+footer h1, footer h2,
+footer h3, footer h4,
+footer h5, footer h6{
+    color: white;
+}
+.dekstop-footer h6{
+    font-weight: bold;
+}
+.dekstop-footer p{
+    font-size: 14px;
+    color: white;
+}
+.dekstop-footer img{
+    height: 65px;
+}
+.dekstop-footer .list-group-item{
+    border: none;
+    background: none;
+    padding: 0.2rem 1.25rem;
+    color: white;
+}
+.dekstop-footer .app_logo img{
+    height: 150px;
+    width:200px;
+}
+
+.dekstop-footer .bank_logo{
+    background-position: center;
+    background-color: rgba(234, 241, 241, 0.993) !important;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top:  3px;
+      margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: left;
+}
+.dekstop-footer .bank_logo.logo_bri{
+    background: url(../img/logo_bri.png) no-repeat;
+    background-position: center;
+    background-size: 50px 15px ;
+}
+.dekstop-footer .bank_logo.logo_bca{
+    background: url(../img/logo_bca.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+
+}
+.dekstop-footer .bank_logo.logo_visa{
+    background: url(../img/logo_visa.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+
+}
+.dekstop-footer .bank_logo.logo_prima{
+    background: url(../img/logo_prima.png) no-repeat;
+    background-position: center;
+    background-size: 50px 30px ;
+
+}
+.dekstop-footer .bank_logo.logo_cimb{
+    background: url(../img/logo_cimb.png) no-repeat;
+    background-position: center;
+    background-size: 55px 30px ;
+
+}
+.dekstop-footer .bank_logo.logo_link{
+    background: url(../img/logo_link.png) no-repeat;
+    background-position: center;
+    background-size: 50px 20px ;
+
+}
+
+.dekstop-footer .bank_logo.logo_atm{
+    background: url(../img/logo_atm.png) no-repeat;
+    background-position: center;
+    background-size: 60px 30px ;
+}
+.dekstop-footer .bank_logo.logo_indomaret{
+    background: url(../img/logo_indomaret.png) no-repeat;
+    background-position: center;
+    background-size: 40px 25px ;
+}
+.dekstop-footer .bank_logo.logo_mandiri{
+    background: url(../img/logo_mandiri.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+}
+
+.dekstop-footer .bank_logo.logo_alfamart{
+    background: url(../img/logo_alfamart.png) no-repeat;
+    background-position: center;
+    background-size: 60px 20px ;
+}
+.dekstop-footer .bank_logo.logo_bni{
+    background: url(../img/logo_bni.png) no-repeat;
+    background-position: center;
+    background-size: 60px 30px ;
+}

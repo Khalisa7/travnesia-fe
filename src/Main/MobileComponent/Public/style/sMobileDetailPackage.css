@@ -1,0 +1,155 @@
+.m-detail-package{
+    padding-bottom: 0px;
+}
+
+.m-detail-package .carousel img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.m-detail-package .card .small-text{
+    display: inline-flex;
+}
+
+.m-detail-package .card .small-text, .m-detail-package .card .small-text p{
+    padding-left: 1px;
+    font-size: 12px;
+}
+.description-detail-city{
+    margin-top :15px;
+}
+.m-detail-package .card .description-detail-city{
+    text-align: justify;
+}
+
+.m-detail-package .card .description-detail-city .facility img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.m-detail-package .fixed-bottom .col-12 button{
+    width: 100%;
+}
+
+.m-detail-package .fixed-bottom .price-detail-city{
+    background-color: #2d3436;
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+}
+
+.m-detail-package .fixed-bottom .price-detail-city span{
+    font-size: 24px;
+}
+
+.m-detail-package .fixed-bottom button{
+    width: 100%;
+}
+
+.m-detail-package .x-scroll{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.customer-acount{
+    font-size: 12px;
+
+}
+.customer-acount i{
+    padding-right: 10px;
+}
+.m-detail-package .owl-carousel .owl-stage{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.m-detail-package  .owl-carousel .owl-item img{
+    width: 20%;
+    display: block;
+
+}
+
+/*  */
+.m-detail-hr{
+    margin-top :0px;
+}
+.m-detail-status{
+    display : flex;
+    margin-right:28px;
+}
+.m-detail-status i{
+    margin-top:4px;
+    color: #dc3545
+}
+.m-detail-status p{
+    margin-left:10px;
+}
+.m-detail-service{
+    margin-top:-10px;
+}
+.m-detail-service i{
+    color: #dc3545
+}
+.classs div{
+    width: 5px;
+    height: 19px;
+    background: linear-gradient(to right, rgba(82,52,247,1) 0%, rgba(235,103,103,1) 34%, rgba(59,136,204,1) 76%, rgba(82,52,247,1) 100%);
+    margin-right: 10px;
+}
+.m-detail-service-icon {
+    font-size: 20px;
+    margin-right: -35px;
+    margin-top:-2px;
+}
+.icon-n{
+    display :flex;
+}
+.col-centered{
+    text-align: center;
+    padding-left:0px;
+}
+.m-detail-star{
+    display: grid;
+    margin-left: 7px;
+    font-size: 12px;
+}
+.m-detail-review{
+    font-size:35px;
+    margin-top: -6px;
+}
+.m-detail-ulasan {
+    margin-top: -13px;
+    font-size: 12px;
+}
+
+/*  */
+.modal,
+.modal-dialog,
+.modal-content{
+    height: 100%;
+}
+.modal-dialog{
+    margin: 0;
+}
+.modal-content{
+    border-radius: 0;
+}
+.modal-content .modal-header{
+    border-radius: 0;
+}
+/* .m-detail-input{
+    border: 0.1px solid #212121;
+    width: 90px;
+    margin-left: -1.1px;
+    text-align: center;
+} */
+
+/*  */
+.m-detail-package .carousel-inner {
+    height: 188px;
+}

@@ -1,0 +1,15 @@
+.user-support{
+    min-height: 350px;
+}
+.user-support .badge{
+    font-size: 14px;
+}
+.user-support .card img{
+    height: auto;
+}
+/* .user-support table tr:first-child{
+    border: none;
+} */
+.user-support table tbody tr{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}

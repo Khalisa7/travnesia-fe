@@ -1,0 +1,129 @@
+.row.container.mobile-travel-card{
+    margin: 0px;
+}
+
+.mobile-travel-list{
+    margin-top: 60px;
+}
+.mobile-travel-list .footer-travel-list .fixed-bottom .btn{
+    width: 100%;
+}
+.mobile-travel-card{
+    padding-left: 7px;
+    padding-right: 7px;
+    
+}
+.mobile-travel-card .fa h6{
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #000;
+}
+
+.mobile-travel-card{
+    margin-bottom: 30px;
+    min-width: 100%;
+    min-height: 20%;
+}
+.mobile-travel-card .card .card-body h6.card-title{
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+}
+
+
+.mobile-travel-card .card .card-text .d-block .fa{
+    margin-right: 3px;
+}
+
+.mobile-travel-card .card .card-text .badge{
+    margin: 0px;
+
+}
+.mobile-travel-card .card .card-text .btn{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+.mobile-travel-card .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.row .container .mobile-travel-card{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.mobile-travel-card .media {
+    height: 150px;
+    width: 109%;
+    overflow: hidden;
+
+}
+.mobile-travel-card .media .media-img{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-radius: 30%;
+}
+.mobile-travel-card img{
+    position: relative;
+    max-width: 120%;
+
+}
+.mobile-travel-card .media .media-body{      
+    height: 100%;
+}
+
+.mobile-travel-card .card {
+    height: 150px;
+}
+
+.mobile-travel-card .card p span{
+    margin: 3px;
+}
+.mobile-travel-card .card p span i{
+    font-size: 12px;
+}
+.mobile-travel-card .card p span i.fa-star{
+    font-size: 14px;
+}
+.mobile-travel-card .card .card-img-top{
+    position: relative;
+    overflow: hidden;
+    height: 150px;
+}
+.mobile-travel-card .card p:first-child{
+    height: 50px;
+}
+.mobile-travel-card .card p:nth-child(2){
+    margin: 0;
+}
+
+
+.mobile-travel-list .modal,
+.mobile-travel-list .modal-dialog,
+.mobile-travel-list .modal-content{
+    height: 100%;
+}
+.mobile-travel-list .modal-dialog{
+    margin: 0;
+}
+.mobile-travel-list .modal-content{
+    border-radius: 0;
+}
+.mobile-travel-list .modal-content .modal-header{
+    border-radius: 0;
+}
+
+.footer-travel-list h6{
+    color: #000;
+}
+.search-btn{
+    margin-bottom:-50px;
+}
+.btn-search {
+    width:100%;
+}
+
+

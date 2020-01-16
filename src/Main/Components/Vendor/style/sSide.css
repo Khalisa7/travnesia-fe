@@ -1,0 +1,36 @@
+
+.vendor-left .fa{
+    font-size: 18px;
+    color: var(--primary-color);
+    /* text-decoration: underline; */
+}
+.vendor-left .list-group-item.active{
+    background: var(--primary-color);
+    /* border: 1px solid var(--primary-color) */
+}
+.vendor-left .list-group-item:hover{
+    background: var(--primary-color)!important;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.vendor-left .list-group-item:hover .fa{
+    color: white;
+}
+.vendor-left .list-group-item.active .fa{
+    color: white;
+}
+.vendor-left .vendor-logo{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin:auto;
+    overflow: hidden;
+}
+.vendor-left .vendor-logo > img{
+    height: 115%;
+    width: 115%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: -7px;
+}
